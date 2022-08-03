@@ -81,6 +81,12 @@ Congratulations! You've already made your first contribution.🥳
 
 Good Luck for your journey
 
+### Project Contributors
+
+<a href="https://github.com/TejalKhade28/Xecute/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=TejalKhade28/Xecute" />
+</a>
+
 © 2022 Tejal Khade and contributors.
 
 

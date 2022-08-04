@@ -1,5 +1,5 @@
 # <p align="center">Xecute</p>
-This is a website which is mainly used to track or manage our daily tasks according to our priority.
+<p align="center">This is a website which is mainly used to track or manage our daily tasks according to our priority.</p>
 
   <div align="center">
  <p>

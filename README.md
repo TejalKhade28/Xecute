@@ -1,5 +1,26 @@
-# Xecute
-This is a website which is mainly used to track or manage our daily tasks according to our priority.
+# <p align="center">Xecute</p>
+<p align="center">This is a website which is mainly used to track or manage our daily tasks according to our priority.</p>
+
+  <div align="center">
+ <p>
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=TejalKhade28%2FXecute%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/TejalKhade28/Xecute)
+![GitHub Repo stars](https://img.shields.io/github/stars/TejalKhade28/Xecute)
+![GitHub contributors](https://img.shields.io/github/contributors/TejalKhade28/Xecute)
+![GitHub last commit](https://img.shields.io/github/last-commit/TejalKhade28/Xecute)
+  
+![GitHub repo size](https://img.shields.io/github/repo-size/TejalKhade28/Xecute)
+
+![Github](https://img.shields.io/github/license/TejalKhade28/Xecute)
+![GitHub issues](https://img.shields.io/github/issues/TejalKhade28/Xecute)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/TejalKhade28/Xecute)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/TejalKhade28/Xecute)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/TejalKhade28/Xecute)
+ </p>
+ </div>
 
 # Contribution is fun! 🧡
 

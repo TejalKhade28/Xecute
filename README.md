@@ -112,5 +112,15 @@ Good Luck for your journey
 
 
 
+<h2 align="center">
+Some Website Snapshots Displayed here!
+</h2>
+![Intro_front page](https://user-images.githubusercontent.com/79683880/183753380-2c96fcd8-d5d1-4391-9b17-ba47d5e5e069.png)
+![task_page](https://user-images.githubusercontent.com/79683880/183753417-3443dc31-3e3a-453f-b92f-5a34e5ba9086.png)
+![update_page](https://user-images.githubusercontent.com/79683880/183753445-ff48cc6e-74a9-495c-af6e-742d52b3397c.png)
+![contact_page](https://user-images.githubusercontent.com/79683880/183753465-4e8d7fd1-8ecb-4aec-8449-711d486e2286.png)
+![about_us_page](https://user-images.githubusercontent.com/79683880/183753486-99b4f9aa-bb46-40c9-8241-a0dbc6e337ad.png)
+
+
 
 

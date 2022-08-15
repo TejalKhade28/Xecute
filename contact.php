@@ -142,7 +142,8 @@ section i {
     font-size: 18px;
     width: 50%;
     height: 40px;
-    margin-top: -5px;
+    padding: 5px;
+    border-radius: 35px;
 }
 
 .form .contact-form input[type=submit]:hover {

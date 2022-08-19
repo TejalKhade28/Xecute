@@ -1,5 +1,5 @@
 <?php
-include ('db.php');
+// include ('db.php');
 
 ?>
 
@@ -144,6 +144,7 @@ section i {
     height: 40px;
     padding: 5px;
     border-radius: 35px;
+    cursor: pointer;
 }
 
 .form .contact-form input[type=submit]:hover {
@@ -233,6 +234,53 @@ ul li {
 display: inline-block;
 margin: 10px;
 list-style: none;
+}
+
+
+#footer{
+	border: 2px solid #000;
+	height: 6rem;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #071245;
+}
+
+.footer_div1{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer_div1 a{
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	margin: 10px 0;
+	text-decoration: underline;
+}
+
+
+.footer_div2 p{
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+.footer_div3 i{
+	color: #fff;
+	font-size: 1.8rem;
+	padding: 0 1rem;
+	cursor: pointer;
+}
+
+#insta{
+	color: rgb(214, 84, 66);
+}
+
+#twitter{
+	color: #1DA1F2;
 }
 
 
@@ -342,6 +390,22 @@ list-style: none;
 
 </div>
 </div>
+
+<footer id="footer">
+          <div class="footer_div1">
+              <a href="/index1.html">Home Page</a>
+              <a href="/about.html">About Page</a>
+          </div>
+          <div class="footer_div2">
+              <p>Made By TejalKhade 💖 Copyright &copy; 2022</p>
+          </div>
+
+          <div class="footer_div3">
+            <i class="fab fa-instagram" id="insta"></i>          
+            <i class="fab fa-twitter" id="twitter"></i>
+            <a href="https://github.com/TejalKhade28/Xecute" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+      </footer>  
 </body>
 
 </html>

@@ -78,7 +78,7 @@ p {
 	padding: 90px 0;
 	background-color: rgb(187, 218, 226);
 	background-image: url(./images/bg.jpg);
-	
+	background-size: contain;
 }
 #about .about-top {
 	max-width: 500px;

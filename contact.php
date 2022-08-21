@@ -164,6 +164,7 @@ section i {
     margin: 20px 30px;
 }
 
+/* Added background image  */
 .container{
     background-image: url(./images/bg.jpg);
 	background-size: contain;

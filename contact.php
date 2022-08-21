@@ -258,7 +258,7 @@ list-style: none;
 	color: #fff;
 	letter-spacing: 1px;
 	font-size: 1rem;
-	margin: 10px 0;
+	margin: 3px 0;
 	text-decoration: underline;
 }
 
@@ -393,8 +393,9 @@ list-style: none;
 
 <footer id="footer">
           <div class="footer_div1">
-              <a href="/index1.html">Home Page</a>
-              <a href="/about.html">About Page</a>
+              <a href="index1.html" target="_blank">Home Page</a>
+              <a href="about.html" target="_blank">About Page</a>
+              <a href="contact.php" target="_blank">Contact Page</a>
           </div>
           <div class="footer_div2">
               <p>Made By TejalKhade 💖 Copyright &copy; 2022</p>

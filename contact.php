@@ -164,6 +164,11 @@ section i {
     margin: 20px 30px;
 }
 
+.container{
+    background-image: url(./images/bg.jpg);
+	background-size: contain;
+}
+
 @media screen and (max-width: 900px) {
     body {
         background-repeat: repeat-y;

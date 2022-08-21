@@ -13,6 +13,12 @@
         button{
             cursor: pointer;
         }
+        button:hover{
+            background-color: white;
+            border: 2px solid #085f6e;
+            color: rgb(8,95,110);
+            font-weight: 700;
+        }
     </style>
 </head>
 

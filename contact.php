@@ -296,7 +296,7 @@ list-style: none;
 
 .sub_title{
 	font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     margin: 0.3rem 0;
 }
 
@@ -345,7 +345,7 @@ list-style: none;
         <h3 class="title">We Would Love to Hear From You
         Whether you are curious about our features or would like to give suggestions, we are ready to answer all your questions.
         </h3>
-     <h3 class="sub_title">"Let's Start a Conversation!"</h3>  
+     <h3 class="sub_title">Let's Start a Conversation!</h3>  
         </center>
     <!-- </header> -->
     <div class="content">

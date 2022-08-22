@@ -289,6 +289,17 @@ list-style: none;
 	color: #1DA1F2;
 }
 
+.title{
+    font-size: 1.3rem;
+    margin: 0.3rem 0;
+}
+
+.sub_title{
+	font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0.3rem 0;
+}
+
 
 
 </style>   
@@ -331,10 +342,11 @@ list-style: none;
 
 <div class="container"><br>
     <!-- <header> --><center>
-        <h1>Contact Us</h1>
-        <p>FOR ANY QUERY YOU CAN CONTACT US VIA EMAIL OR PHONE. OUR SERVICES ARE GOOD AND RELEVENT 
-            FOR MORE INFORMATION VISIT US IN BELOW ADDRESS.
-        </p></center>
+        <h3 class="title">We Would Love to Hear From You
+        Whether you are curious about our features or would like to give suggestions, we are ready to answer all your questions.
+        </h3>
+     <h3 class="sub_title">"Let's Start a Conversation!"</h3>  
+        </center>
     <!-- </header> -->
     <div class="content">
         <div class="content-form">

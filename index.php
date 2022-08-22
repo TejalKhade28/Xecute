@@ -17,6 +17,7 @@ require_once "header.php";
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
    <!-- <link rel="stylesheet" href="style1.css" /> -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
@@ -273,7 +274,7 @@ td {
 
 li a:hover:not(.active) {
   background-color: #111;
-  border-radius: 10px;
+  border-radius: 100px;
   border: 1px solid #73AD21;
 }
 
@@ -308,20 +309,46 @@ li a:hover:not(.active) {
     flex-direction: column;
 }
 
-.sci li {
+/* .sci li {
     list-style: none;
-    /* filter: invert(1); */
     margin: 5px 0;
     transform: scale(0.7);
     filter: invert(1);
+} */
+
+.sci i{
+  margin: 10px 0px;
+  font-size: 35px;
 }
 
-
-/* body {
-    background: black; */
-
-
-/* } */
+.fa-instagram{
+  color: #f435b7;
+}
+.fa-facebook{
+  color:#0077b5;
+}
+.fa-twitter{
+  color:#55acee;
+}
+ 
+.fa-instagram:hover{
+  color: wheat;
+  background-color: #f435b7;
+  border-radius: 30px;
+  padding: 2px;
+}
+.fa-facebook:hover{
+  color:wheat;
+  background-color: #0077b5;
+  border-radius: 30px;
+}
+.fa-twitter:hover{
+  color:wheat;
+  background-color:#55acee;
+  border-radius: 30px;
+  padding: 2px;
+}
+ 
 
 .clock {
     position: absolute;
@@ -847,15 +874,18 @@ else{
 
     <script src="app.js"></script>
     <ul class="sci">
-        <li>
+        <!-- <li class="facebook_icon">
             <a href="https://www.facebook.com/raitacm/"><img src="images/facebook.png"><a>
         </li>
-        <li>
+        <li class="instagram_icon">
             <a href="https://www.instagram.com/rait_acm/"><img src="images/instagram.png"></a>
         </li>
-        <li>
+        <li class="twitter_icon">
             <a href="https://twitter.com/theofficialacm"><img src="images/twitter.png"></a>
-        </li>
+        </li> -->
+        <a href="https://www.instagram.com/rait_acm/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/raitacm/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/theofficialacm" target="_blank"><i class="fab fa-twitter"></i></a>
     </ul>
 
     <div class="clock">

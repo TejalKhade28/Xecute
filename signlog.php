@@ -96,12 +96,12 @@
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
                     <h1>Welcome Back!</h1>
-                    <p>To keep connected with us please login with your personal info</p>
+                    <p>To Centralize and prioritize your tasks please login to Xecute</p>
                     <button class="ghost" id="signIn">Sign In</button>
                 </div>
                 <div class="overlay-panel overlay-right">
                     <h1>Hello, Friend!</h1>
-                    <p>Enter your details and start journey with us</p>
+                    <p>Be more Effective and Start your Journey with Us</p>
                     <button class="ghost" id="signUp">Sign Up</button>
                 </div>
             </div>

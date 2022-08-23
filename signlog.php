@@ -6,7 +6,14 @@
     <link rel="stylesheet" type="text/css" href="style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
     <style>
+        body{
+                background-image: url(./images/bg.jpg);
+                background-size: cover;
+                overflow-y: hidden;
+                
+            }
         a:hover{
             color: blue;
         }

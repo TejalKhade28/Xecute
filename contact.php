@@ -222,12 +222,6 @@ section i:hover{
     background-color: #0047AB;
     box-shadow: 0 0 25px 0 blue;
 }
-
-li a:hover:not(.active) {
-  background-color: #111;
-  border-radius: 10px;
-  border: 1px solid #73AD21;
-}
 .active {
   background-color: #04AA6D;
 }

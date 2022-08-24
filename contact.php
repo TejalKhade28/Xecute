@@ -71,13 +71,13 @@ header h1 {
     margin-top: 7rem;
 }
 
-section i {
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0.8);
-    color: black;
-    text-align: center;
+section i{
+    font-size: 29px;
+    background-color: transparent;
+    color: dodgerblue;
+}
+section i:hover{
+    color: #AC7088;
 }
 
 .form {
@@ -345,21 +345,21 @@ list-style: none;
     <div class="content">
         <div class="content-form">
             <section>
-                <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
-                <h2>address</h2>
+                <i class="fas fa-map-marker-alt"></i>
+                <h2>Address</h2>
                 <p>
                     MARINE LINES ROAD . <br> WARLEY BRIDGE . <br> NAVI MUMBAI 
                 </p>
             </section>
 
             <section>
-                <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+            <i class="fas fa-phone" ></i>
                 <h2>Phone</h2>
                 <p>123-456-78901548</p>
             </section>
 
             <section>
-                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+            <i class="fas fa-envelope"></i>
                 <h2>E-mail</h2>
                 <p>ABC123@GMAIL.COM</p>
             </section>

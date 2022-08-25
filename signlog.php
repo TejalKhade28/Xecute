@@ -9,9 +9,10 @@
 
     <style>
         body{
-                background-image: url(./images/bg.jpg);
+                background-image: url(./images/bg2.jpg);
                 background-size: cover;
                 overflow-y: hidden;
+                background-repeat: no-repeat;
                 
             }
         a:hover{

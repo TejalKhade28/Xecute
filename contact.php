@@ -69,7 +69,7 @@ header h1 {
 }
 
 .content-form {
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 
 section i{
@@ -285,14 +285,19 @@ list-style: none;
 }
 
 .title{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
     margin: 0.3rem 0;
+    color: whitesmoke;
 }
 
 .sub_title{
+    /* margin-top: 10px; */
 	font-weight: bold;
-    font-size: 1.7rem;
-    margin: 0.3rem 0;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-family: 'Noto Serif', serif;
+    margin: 1rem 0;
 }
 
 
@@ -337,9 +342,9 @@ list-style: none;
 
 <div class="container"><br>
     <!-- <header> --><center>
-        <h3 class="title">We Would Love to Hear From You
-        Whether you are curious about our features or would like to give suggestions, we are ready to answer all your questions.
-        </h3>
+        <h4 class="title">We would love to hear from you
+        whether you are curious about our features or would like to give suggestions, <br> we are ready to answer all your questions.
+        </h4>
      <h3 class="sub_title">Let's Start a Conversation!</h3>  
         </center>
     <!-- </header> -->

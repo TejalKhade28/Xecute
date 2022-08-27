@@ -203,10 +203,8 @@ select {
     border-radius: 10px;
     font-family: sans-serif;
     background-color: #0047AB;
-    box-shadow: 0 0 25px 0 blue;
+    <!-- box-shadow: 0 0 25px 0 blue; -->
 }
-
-
 
  .nav-bar img {
     height: 35px;
@@ -395,6 +393,17 @@ li a:hover:not(.active) {
 
 .button:hover span {
   padding-right: 25px;
+}
+.btn-success{
+  /* margin-top: 6px; */
+  /* border-radius: 25px!important;  */
+   padding: 7.5px 19px !important;
+}
+.form-select{
+  padding-top: 11.5px  ;
+  padding-bottom: 12px;
+  margin-bottom: 5px;
+  /* border-radius: 25px!important; */
 }
 select {
   padding: 5px 15px;

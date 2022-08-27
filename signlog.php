@@ -9,9 +9,10 @@
 
     <style>
         body{
-                background-image: url(./images/bg.jpg);
+                background-image: url(./images/bg2.jpg);
                 background-size: cover;
                 overflow-y: hidden;
+                background-repeat: no-repeat;
                 
             }
         a:hover{
@@ -19,13 +20,22 @@
         }
         button{
             cursor: pointer;
+            background-color: #607EAA;
+            
         }
         button:hover{
             background-color: white;
-            border: 2px solid #085f6e;
-            color: rgb(8,95,110);
+            border: 2px solid #607EAA;
+            color: #607EAA;
             font-weight: 700;
         }
+        .overlay{
+            background: #607EAA;
+            /* background: #3AB4F2;
+            background: #7FB5FF; */
+        }
+       
+
     </style>
 </head>
 

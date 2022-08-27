@@ -69,7 +69,7 @@ header h1 {
 }
 
 .content-form {
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 
 section i{
@@ -169,7 +169,7 @@ section i:hover{
 /* Added background image  */
 .container{
     background-image: url(./images/bg.jpg);
-	background-size: contain;
+	background-size: cover;
 }
 
 @media screen and (max-width: 900px) {
@@ -222,7 +222,12 @@ section i:hover{
     border-radius: 10px;
     font-family: sans-serif;
     background-color: #0047AB;
-    box-shadow: 0 0 25px 0 blue;
+    box-shadow: 0 0 25px 0 blue  !important;
+}
+.nav-bar img {
+    height: 35px;
+    float: right;
+    margin-right: 20px;
 }
 .active {
   background-color: #04AA6D;
@@ -286,14 +291,28 @@ list-style: none;
 }
 
 .title{
+<<<<<<< HEAD
     font-size: 1.4rem;
+=======
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+>>>>>>> 428c40f01154e2c2ffa792d023a1f803635094c0
     margin: 0.3rem 0;
+    color: whitesmoke;
 }
 
 .sub_title{
+    /* margin-top: 10px; */
 	font-weight: bold;
+<<<<<<< HEAD
     font-size: 1.1rem;
     margin: 0.3rem 0;
+=======
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-family: 'Noto Serif', serif;
+    margin: 1rem 0;
+>>>>>>> 428c40f01154e2c2ffa792d023a1f803635094c0
 }
 
 
@@ -338,11 +357,18 @@ list-style: none;
 
 <div class="container"><br>
     <!-- <header> --><center>
+<<<<<<< HEAD
     <h3 class="title">Let's Start a Conversation!</h3> 
         <h3 class="sub_title">We Would Love to Hear From You
         Whether you are curious about our features or would like to give suggestions, we are ready to answer all your questions.
         </h3>
       
+=======
+        <h4 class="title">We would love to hear from you
+        whether you are curious about our features or would like to give suggestions, <br> we are ready to answer all your questions.
+        </h4>
+     <h3 class="sub_title">Let's Start a Conversation!</h3>  
+>>>>>>> 428c40f01154e2c2ffa792d023a1f803635094c0
         </center>
     <!-- </header> -->
     <div class="content">

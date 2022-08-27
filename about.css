@@ -35,19 +35,24 @@ p {
 }
   .section-title {
 	font-size: 4rem;
-	font-weight: 300;
+	font-weight: 600;
 	color: rgba(241, 246, 248, 0.973);
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	text-align: center;
+	font-family: 'Noto Serif', serif;
 } 
 .section-title span {
 	color: rgb(255, 255, 255);
 } 
 
 .section-subTitle{
-	font-size: 1.6rem;
+	font-size: 2rem;
+	letter-spacing: 1px;
+	font-family: 'Noto Serif', serif;
+	color: #F7EDDB;
+	
 }
 
 .cta {
@@ -78,8 +83,15 @@ p {
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
+<<<<<<< HEAD
 	padding: 90px 0;
 	background-size: contain;
+=======
+	padding: 20px 0;
+	background-color: rgb(187, 218, 226);
+	background-image: url(./images/bg.jpg);
+	background-size: cover;
+>>>>>>> 428c40f01154e2c2ffa792d023a1f803635094c0
 }
 #about .about-top {
 	max-width: 500px;
@@ -153,14 +165,12 @@ p {
 	}
     
     .nav-bar {
-    
-        background-image: linear-gradient(60deg, #184d8a 0%, #1a070b 100%);
-        padding: 0px;
-        border-radius: 4px;
-        font-family: sans-serif;
-        background-color: #0047AB;
-        box-shadow: 0 0 25px 0 blue;
-        height: 30%;
+    background-image: linear-gradient(60deg, #184d8a 0%, #1a070b 100%);
+    padding: 0px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    background-color: #0047AB;
+    box-shadow: 0 0 25px 0 blue !important;
     }
     li a{
         font-size: 15px;

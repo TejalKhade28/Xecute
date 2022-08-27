@@ -396,6 +396,17 @@ li a:hover:not(.active) {
 .button:hover span {
   padding-right: 25px;
 }
+.btn-success{
+  /* margin-top: 6px; */
+  /* border-radius: 25px!important;  */
+   padding: 7.5px 19px !important;
+}
+.form-select{
+  padding-top: 11.5px  ;
+  padding-bottom: 12px;
+  margin-bottom: 5px;
+  /* border-radius: 25px!important; */
+}
 select {
   padding: 5px 15px;
   border: none;

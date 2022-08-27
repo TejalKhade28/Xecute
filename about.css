@@ -83,15 +83,10 @@ p {
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
-<<<<<<< HEAD
 	padding: 90px 0;
 	background-size: contain;
-=======
 	padding: 20px 0;
-	background-color: rgb(187, 218, 226);
-	background-image: url(./images/bg.jpg);
-	background-size: cover;
->>>>>>> 428c40f01154e2c2ffa792d023a1f803635094c0
+	background-size: #071245;
 }
 #about .about-top {
 	max-width: 500px;

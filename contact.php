@@ -168,7 +168,7 @@ section i:hover{
 /* Added background image  */
 .container{
     background-image: url(./images/bg.jpg);
-	background-size: contain;
+	background-size: cover;
 }
 
 @media screen and (max-width: 900px) {
@@ -221,7 +221,12 @@ section i:hover{
     border-radius: 10px;
     font-family: sans-serif;
     background-color: #0047AB;
-    box-shadow: 0 0 25px 0 blue;
+    box-shadow: 0 0 25px 0 blue  !important;
+}
+.nav-bar img {
+    height: 35px;
+    float: right;
+    margin-right: 20px;
 }
 .active {
   background-color: #04AA6D;

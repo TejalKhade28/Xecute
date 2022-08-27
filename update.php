@@ -35,7 +35,7 @@ require_once 'header.php';
 }
 
 body {
-    background: url('https://assets-global.website-files.com/5d9bc5d562ffc2869b470941/5ed1a235add5df124b882e05_blog-hero--optim.jpg');
+    background: url(./images/bg.jpg);
     /* background-color: rgb(0, 0, 0); */
     color: whitesmoke;
     font-family: "Poppins", sans-serif;

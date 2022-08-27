@@ -32,7 +32,6 @@ require_once "header.php";
 
 body {
     background: url(./images/bg.jpg);
-    /* background-color: rgb(0, 0, 0); */
     color: whitesmoke;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;

@@ -54,7 +54,8 @@ body {
   <div class='row'>
   
     <div class='col-8 mx-auto mt-5'>
-    <h2 class="display-4 mx-auto mt-2 text-center">Update Task</h2>
+    <h2 class=" mx-auto mt-2 text-center" style="font-size: 40px;">Update Task</h2>
+    <h5 style="margin: 20px 0px;" >Have you named it wrong ? Xecute gives you a chance to update or edit your task <center> again.</center></h5>
     <form class="" action="" method="post">
     <div class='form-group'>
     <input class="form-control form-control-lg" type="text" name="update_text" value="<?=$f_result['task_name'] ?>">

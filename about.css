@@ -74,16 +74,19 @@ p {
 }
 
 
+#about{
+	background-color: #071245;
+}
  
   #about .about {
 	flex-direction: column;
 	text-align: center;
 	max-width: 1500px;
 	margin: 0 auto;
+	padding: 90px 0;
+	background-size: contain;
 	padding: 20px 0;
-	background-color: rgb(187, 218, 226);
-	background-image: url(./images/bg.jpg);
-	background-size: cover;
+	background-size: #071245;
 }
 #about .about-top {
 	max-width: 500px;
@@ -185,13 +188,13 @@ p {
     
 #footer{
 	border: 2px solid #000;
-	height: 10rem;
+	height: 10.9rem;
 	width: 100%;
 	display: flex;
 	text-align: center;
 	justify-content: space-around;
 	align-items: center;
-	background-color: #071245;
+	background-color: rgb(13 21 60);
 }
 
 .footer_div1{

@@ -76,6 +76,7 @@ section i{
     font-size: 29px;
     background-color: transparent;
     color: dodgerblue;
+    cursor: pointer;
 }
 section i:hover{
     color: #AC7088;
@@ -290,7 +291,7 @@ list-style: none;
 }
 
 .title{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: 'Noto Serif', serif;
     margin: 0.3rem 0;
     color: whitesmoke;
@@ -299,8 +300,9 @@ list-style: none;
 .sub_title{
     /* margin-top: 10px; */
 	font-weight: bold;
+    font-size: 1.4rem;
+    margin: 0.3rem 0;
     color: whitesmoke;
-    font-size: 2.5rem;
     font-family: 'Noto Serif', serif;
     margin: 1rem 0;
 }
@@ -347,10 +349,10 @@ list-style: none;
 
 <div class="container"><br>
     <!-- <header> --><center>
-        <h4 class="title">We would love to hear from you
-        whether you are curious about our features or would like to give suggestions, <br> we are ready to answer all your questions.
-        </h4>
-     <h3 class="sub_title">Let's Start a Conversation!</h3>  
+    <h3 class="title">Let's Start a Conversation!</h3> 
+        <h3 class="sub_title">We Would Love to Hear From You
+        Whether you are curious about our features or would like to give suggestions, we are ready to answer all your questions.
+        </h3>
         </center>
     <!-- </header> -->
     <div class="content">

@@ -52,11 +52,17 @@ body {
 }
 
 .showcase h1 {
-    font-size: 4rem;
+    font-family: 'Noto Serif', serif ;
+    margin-bottom: 20px;
+    font-size: 4.5rem;
+    color: #D61C4E;
+    text-shadow: 3px 3px 10px #C21010;
 }
 
 .showcase p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    font-family: 'Noto Serif', serif ;
+    color: #A6D1E6;
 }
 
 .btn {

@@ -264,11 +264,16 @@ list-style: none;
 	text-decoration: none;
 	color: #fff;
 	letter-spacing: 1px;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	margin: 3px 0;
-	text-decoration: underline;
+    font-family: 'Noto Serif', serif;
 }
-
+.footer_div1 a:hover{
+    color: #AC7088;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
 
 .footer_div2 p{
 	color: #fff;
@@ -288,6 +293,27 @@ list-style: none;
 
 #twitter{
 	color: #1DA1F2;
+}
+#github{
+	color: #000000;
+}
+.fa-instagram:hover{
+    color: wheat !important;
+  background-color: #f435b7;
+  border-radius: 30px;
+  padding: 2px;
+}
+.fa-twitter:hover{
+  color:wheat !important;
+  background-color:#55acee;
+  border-radius: 30px;
+  padding: 2px;
+}
+.fa-github:hover{
+  color:wheat !important;
+  background:  #000;
+  border-radius: 28px;
+  padding: 2px;
 }
 
 .title{
@@ -429,7 +455,7 @@ list-style: none;
           <div class="footer_div3">
             <i class="fab fa-instagram" id="insta"></i>          
             <i class="fab fa-twitter" id="twitter"></i>
-            <a href="https://github.com/TejalKhade28/Xecute" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/TejalKhade28/Xecute" target="_blank" id="github"><i class="fab fa-github"></i></a>
           </div>
       </footer>  
 </body>

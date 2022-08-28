@@ -221,11 +221,19 @@ body {
 
 .menu-wrap .menu>div>div>ul>li {
     list-style: none;
-    color: #fff;
+    color: #FFF9CA;
     font-size: 1.5rem;
     padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
+.menu-wrap .menu>div>div>ul>li:hover {
 
+    color: palevioletred;
+    text-decoration: underline;
+    font-weight: bold;
+}
 .menu-wrap .menu>div>div>ul>li>a {
     color: inherit;
     text-decoration: none;

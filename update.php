@@ -61,10 +61,10 @@ body {
     <input class="form-control form-control-lg" type="text" name="update_text" value="<?=$f_result['task_name'] ?>">
     </div>
     <div class='form-group'>
-    <input class="btn btn-warning btn-block" type="submit" name="update" value="update">
+    <input class="btn btn-success btn-block" type="submit" name="update" value="Update">
     </div>
     <div>
-    <a href="index.php" class="btn btn-warning btn-block" >Cancel</a>
+    <a href="index.php" class="btn btn-danger btn-block" >Cancel</a>
     </div>
   </form>
     </div>

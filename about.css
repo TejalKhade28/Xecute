@@ -206,11 +206,17 @@ p {
 	text-decoration: none;
 	color: #fff;
 	letter-spacing: 1px;
-	font-size: 1.4rem;
-	margin: 10px 0;
-	text-decoration: underline;
+	font-size: 1.9rem;
+	margin: 5px 0;
+	font-family: 'Noto Serif', serif !important;
 }
-
+.footer_div1 a:hover{
+	color: #AC7088;
+	  text-decoration: underline;
+	  font-weight: bold;
+	  font-family: 'Noto Serif', serif;
+  }
+  
 
 .footer_div2 p{
 	color: #fff;
@@ -230,4 +236,22 @@ p {
 
 #twitter{
 	color: #1DA1F2;
+}
+.fa-instagram:hover{
+    color: wheat !important;
+  background-color: #f435b7;
+  border-radius: 30px;
+  padding: 2px;
+}
+.fa-twitter:hover{
+  color:wheat !important;
+  background-color:#55acee;
+  border-radius: 30px;
+  padding: 2px;
+}
+.fa-github:hover{
+  color:wheat !important;
+  background:  #000;
+  border-radius: 28px;
+  padding: 2px;
 }

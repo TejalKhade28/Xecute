@@ -21,9 +21,11 @@ a {
 	
 }
 img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+	height: 120%;
+      width: 120%;
+      object-fit: cover;
+      border-radius: 30%;
+      margin-left: 70px;
 } 
 p {
 	color: rgb(240, 222, 222);
@@ -128,17 +130,28 @@ p {
 #about .about-bottom .icon {
 	height: 80px;
 	width: 80px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 #about .about-item h2 {
 	font-size: 2rem;
-	color: rgb(250, 245, 245);
+	/* color: #0096FF; */
+	color: #8FE3CF ;
+	text-shadow: 2px 2px 3px #256D85;
 	margin-bottom: 10px;
 	text-transform: uppercase;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#about .about-item h3 {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+	color: white;
+	letter-spacing: 2px;
 }
 #about .about-item p {
-	color: white;
+	font-size: 15px;
+	color: #ECCCB2;
 	text-align: left; 
+	text-transform: capitalize;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 

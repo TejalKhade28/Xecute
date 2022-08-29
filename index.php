@@ -444,7 +444,7 @@ select {
                 <li><a href="index.php" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-home"></i>&nbsp;HOME</a></li>
                 <li><a href="contact.php" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-envelope"></i>&nbsp;CONTACT US</a></li>
                 <li><a href="about.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-info-circle"></i>&nbsp;ABOUT US</a></li>
-                <li  style="float:right"><a href="logout.php" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-user"></i>&nbsp;LOGOUT</a></li>
+                <li  style="float:right"><a href="index1.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-user"></i>&nbsp;LOGOUT</a></li>
                 
             </ul>
         </div>

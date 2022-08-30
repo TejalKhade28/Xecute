@@ -78,9 +78,6 @@ section i{
     color: dodgerblue;
     cursor: pointer;
 }
-section i:hover{
-    color: #AC7088;
-}
 
 .form {
     display: flex;

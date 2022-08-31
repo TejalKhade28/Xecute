@@ -34,6 +34,11 @@
             /* background: #3AB4F2;
             background: #7FB5FF; */
         }
+        h1{
+            font-family: ‘Georgia’, serif;
+            font-weight: bolder;
+            font-size: 37px;
+        }
        
 
     </style>
@@ -45,7 +50,7 @@
         <div class="form-container sign-up-container">
 
             <form action="registration.php" method="post">
-                <h1>Register Here</h1>
+                <h1>Sign Up</h1>
                 <!-- <div class="social-container">
                     <a href="#" class="social"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="social"><i class="fa fa-google"></i></a>

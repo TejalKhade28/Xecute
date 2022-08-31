@@ -224,6 +224,16 @@ section i{
     float: right;
     margin-right: 20px;
 }
+li a:hover:not(.active) {
+    font-size: 17px !important;
+  color: #9ED2C6 !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 3px !important;
+}
+li i:hover{
+    color: #9ED2C6 !important;
+}
 .active {
   background-color: #04AA6D;
 }

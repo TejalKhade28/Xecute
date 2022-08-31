@@ -20,7 +20,7 @@ a {
     
 	
 }
-img {
+.about-item img {
 	height: 120%;
       width: 120%;
       object-fit: cover;
@@ -189,12 +189,15 @@ p {
     .menu-right{
     text-align: left;
     }
-    
+    .nav-bar img {
+		height: 25px;
+		margin-top: 5px;
+	}
     ul li {
     display: inline-block;
     margin: 10px;
     list-style: none;
-    height: 30%;
+    /* height: 30%; */
     }
     
     

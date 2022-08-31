@@ -211,13 +211,14 @@ select {
     padding: 0px;
     font-family: sans-serif;
     background-color: #0047AB;
-    <!-- box-shadow: 0 0 25px 0 blue; -->
+     /* box-shadow: 0 0 25px 0 blue;  */
 }
 
  .nav-bar img {
-    height: 35px;
-    float: right;
-    margin-right: 20px;
+   height: 25px;
+		margin-top: 7px;
+    margin-bottom: 0px !important;
+    margin-right: 0px;
 }
 
 .menu-left {
@@ -449,8 +450,7 @@ select {
         <div class="menu-right">
              <span onClick="myFunction()">&#9776;</span> 
             <ul id="menu">
-                 
-                 
+                <li><img src="images/logo1.png" alt=""></li>
                 <li><a href="index.php" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-home"></i>&nbsp;HOME</a></li>
                 <li><a href="contact.php" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-envelope"></i>&nbsp;CONTACT US</a></li>
                 <li><a href="about.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-info-circle"></i>&nbsp;ABOUT US</a></li>

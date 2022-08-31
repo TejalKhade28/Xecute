@@ -169,7 +169,17 @@ select {
     width: 12rem;
 }
 
-
+.btn-sm {
+  margin: 0px 10px;
+  border-radius: 15px !important;
+  width: 90px !important;
+  padding: 4px !important;
+  font-size: 15px !important;
+}
+.btn-sm:hover{
+  color: #111 !important;
+  font-weight: bold;
+}
 /* Arrow */
 
 .select::after {
@@ -392,10 +402,11 @@ li a:hover:not(.active) {
 .button:hover span {
   padding-right: 25px;
 }
-.btn-success{
+.btn-success .btn-lg{
   /* margin-top: 6px; */
   /* border-radius: 25px!important;  */
    padding: 7.5px 19px !important;
+
 }
 .form-select{
   padding-top: 11.5px  ;
@@ -600,8 +611,8 @@ if($result->num_rows!=0){
   <td>
 
   <div class="btn-group">
-    <a class="btn btn-sm btn-warning" href="update.php?id=<?php echo base64_encode($row['id']); ?>">update</a>
-    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">delete</a>
+    <a class="btn btn-sm btn-success" href="update.php?id=<?php echo base64_encode($row['id']); ?>">Update</a>
+    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">Delete</a>
     </div>
   </td>
 </tr>
@@ -666,8 +677,8 @@ if($result->num_rows!=0){
   <td>
 
   <div class="btn-group">
-    <a class="btn btn-sm btn-warning" href="update.php?id=<?php echo base64_encode($row['id']); ?>">update</a>
-    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">delete</a>
+    <a class="btn btn-sm btn-success" href="update.php?id=<?php echo base64_encode($row['id']); ?>">Update</a>
+    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">Delete</a>
     </div>
   </td>
 </tr>
@@ -738,8 +749,8 @@ if($result->num_rows!=0){
   <td>
 
   <div class="btn-group">
-    <a class="btn btn-sm btn-warning" href="update.php?id=<?php echo base64_encode($row['id']); ?>">update</a>
-    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">delete</a>
+    <a class="btn btn-sm btn-success" href="update.php?id=<?php echo base64_encode($row['id']); ?>">Update</a>
+    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">Delete</a>
     </div>
   </td>
 </tr>
@@ -813,8 +824,8 @@ if($result->num_rows!=0){
   <td>
 
   <div class="btn-group">
-    <a class="btn btn-sm btn-warning" href="update.php?id=<?php echo base64_encode($row['id']); ?>">update</a>
-    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">delete</a>
+    <a class="btn btn-sm btn-success" href="update.php?id=<?php echo base64_encode($row['id']); ?>">Update</a>
+    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">Delete</a>
     </div>
   </td>
 </tr>

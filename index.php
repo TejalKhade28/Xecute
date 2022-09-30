@@ -169,7 +169,17 @@ select {
     width: 12rem;
 }
 
-
+.btn-sm {
+  margin: 0px 10px;
+  border-radius: 15px !important;
+  width: 90px !important;
+  padding: 4px !important;
+  font-size: 15px !important;
+}
+.btn-sm:hover{
+  color: #111 !important;
+  font-weight: bold;
+}
 /* Arrow */
 
 .select::after {
@@ -201,13 +211,14 @@ select {
     padding: 0px;
     font-family: sans-serif;
     background-color: #0047AB;
-    <!-- box-shadow: 0 0 25px 0 blue; -->
+     /* box-shadow: 0 0 25px 0 blue;  */
 }
 
  .nav-bar img {
-    height: 35px;
-    float: right;
-    margin-right: 20px;
+   height: 25px;
+		margin-top: 7px;
+    margin-bottom: 0px !important;
+    margin-right: 0px;
 }
 
 .menu-left {
@@ -268,10 +279,12 @@ td {
   border: 1px solid #73AD21;*/
   
 
-li a:hover:not(.active) {
-  background-color: #111;
-  border-radius: 100px;
-  border: 1px solid #73AD21;
+  li a:hover:not(.active) {
+    font-size: 17px !important;
+  color: #9ED2C6 !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 3px !important;
 }
 
 .active {
@@ -373,10 +386,11 @@ li a:hover:not(.active) {
 .button:hover span {
   padding-right: 25px;
 }
-.btn-success{
+.btn-success .btn-lg{
   /* margin-top: 6px; */
   /* border-radius: 25px!important;  */
    padding: 7.5px 19px !important;
+
 }
 .form-select{
   padding-top: 11.5px  ;
@@ -419,8 +433,7 @@ select {
         <div class="menu-right">
              <span onClick="myFunction()">&#9776;</span> 
             <ul id="menu">
-                 
-                 
+                <li><img src="images/logo1.png" alt=""></li>
                 <li><a href="index.php" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-home"></i>&nbsp;HOME</a></li>
                 <li><a href="contact.php" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-envelope"></i>&nbsp;CONTACT US</a></li>
                 <li><a href="about.html" style="display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;"><i class="fa fa-fw fa-info-circle"></i>&nbsp;ABOUT US</a></li>
@@ -581,8 +594,8 @@ if($result->num_rows!=0){
   <td>
 
   <div class="btn-group">
-    <a class="btn btn-sm btn-warning" href="update.php?id=<?php echo base64_encode($row['id']); ?>">update</a>
-    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">delete</a>
+    <a class="btn btn-sm btn-success" href="update.php?id=<?php echo base64_encode($row['id']); ?>">Update</a>
+    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">Delete</a>
     </div>
   </td>
 </tr>
@@ -647,8 +660,8 @@ if($result->num_rows!=0){
   <td>
 
   <div class="btn-group">
-    <a class="btn btn-sm btn-warning" href="update.php?id=<?php echo base64_encode($row['id']); ?>">update</a>
-    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">delete</a>
+    <a class="btn btn-sm btn-success" href="update.php?id=<?php echo base64_encode($row['id']); ?>">Update</a>
+    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">Delete</a>
     </div>
   </td>
 </tr>
@@ -719,8 +732,8 @@ if($result->num_rows!=0){
   <td>
 
   <div class="btn-group">
-    <a class="btn btn-sm btn-warning" href="update.php?id=<?php echo base64_encode($row['id']); ?>">update</a>
-    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">delete</a>
+    <a class="btn btn-sm btn-success" href="update.php?id=<?php echo base64_encode($row['id']); ?>">Update</a>
+    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">Delete</a>
     </div>
   </td>
 </tr>
@@ -794,8 +807,8 @@ if($result->num_rows!=0){
   <td>
 
   <div class="btn-group">
-    <a class="btn btn-sm btn-warning" href="update.php?id=<?php echo base64_encode($row['id']); ?>">update</a>
-    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">delete</a>
+    <a class="btn btn-sm btn-success" href="update.php?id=<?php echo base64_encode($row['id']); ?>">Update</a>
+    <a class="btn btn-sm btn-danger" href="delete.php?id=<?php echo base64_encode($row['id']); ?>">Delete</a>
     </div>
   </td>
 </tr>

@@ -339,25 +339,6 @@ td {
 .fa-twitter{
   color:#55acee;
 }
- 
-.fa-instagram:hover{
-  color: wheat;
-  background-color: #f435b7;
-  border-radius: 30px;
-  padding: 2px;
-}
-.fa-facebook:hover{
-  color:wheat;
-  background-color: #0077b5;
-  border-radius: 30px;
-}
-.fa-twitter:hover{
-  color:wheat;
-  background-color:#55acee;
-  border-radius: 30px;
-  padding: 2px;
-}
- 
 
 .clock {
     position: absolute;

@@ -300,24 +300,6 @@ list-style: none;
 #github{
 	color: #000000;
 }
-.fa-instagram:hover{
-    color: wheat !important;
-  background-color: #f435b7;
-  border-radius: 30px;
-  padding: 2px;
-}
-.fa-twitter:hover{
-  color:wheat !important;
-  background-color:#55acee;
-  border-radius: 30px;
-  padding: 2px;
-}
-.fa-github:hover{
-  color:wheat !important;
-  background:  #000;
-  border-radius: 28px;
-  padding: 2px;
-}
 
 .title{
     font-size: 1.8rem;
